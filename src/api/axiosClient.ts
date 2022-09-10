@@ -1,0 +1,51 @@
+import { useAppDispatch } from '@/store/hooks';
+import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
+
+const axiosClient = axios.create({
+  baseURL: 'http://127.0.0.1:8000/api/v1/',
+  // baseURL: 'https://aht-d1-backend.arrowhitech.net/api/v1/',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+
+// Add a request interceptor
+axiosClient.interceptors.request.use(
+  function (config: AxiosRequestConfig) {
+    // Do something before request is sent
+   // let date = new Date();
+    // const dispatch = useAppDispatch();
+      // const decodedToken = jwt_decode(user?.accessToken);
+      // if (decodedToken.exp < date.getTime() / 1000) {
+      //   const data = await refreshToken();
+      //   const refreshUser = {
+      //     ...user,
+      //     accessToken: data.accessToken,
+      //   };
+      //   dispatch(stateSuccess(refreshUser));
+      //   config.headers["token"] = "Bearer " + data.accessToken;
+      // }
+
+    return config;
+  },
+  function (error) {
+    // Do something with request error
+    return Promise.reject(error);
+  }
+);
+
+// Add a response interceptor
+axiosClient.interceptors.response.use(
+  function (response: AxiosResponse) {
+    // Any status code that lie within the range of 2xx cause this function to trigger
+    // Do something with response data
+    return response.data;
+  },
+  function (error) {
+    // Any status codes that falls outside the range of 2xx cause this function to trigger
+    // Do something with response error
+    return Promise.reject(error);
+  }
+);
+
+export default axiosClient;
