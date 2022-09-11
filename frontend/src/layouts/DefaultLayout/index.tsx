@@ -8,9 +8,11 @@ export interface DefaultLayoutProps {
 
 export function DefaultLayout (props: DefaultLayoutProps) {
   return (
-    <div>
+    <div className='page-wrapper full-width'>
       <Header/>
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
       <Footer/>
     </div>
   );

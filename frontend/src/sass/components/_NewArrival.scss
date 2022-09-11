@@ -1,0 +1,117 @@
+.collection-box .content {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    position: absolute;
+    background-color: hsla(0,0%,100%,.85);
+}
+
+
+.collection-box .content.style-two {
+    left: 50px;
+    right: auto;
+}
+
+.collection-box .content.style-three, 
+.collection-box .content.style-two {
+    top: 45%;
+    padding: 0;
+    bottom: auto;
+    text-align: start;
+    -webkit-transform: translateY(-45%);
+    -moz-transform: translateY(-45%);
+    transform: translateY(-45%);
+    background-color: transparent;
+}
+
+.collection-box .content span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--mainColor);
+}
+
+.collection-box .content h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.collection-box .content .link-btn {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    line-height: 1.2;
+    font-size: var(--fontSize);
+    font-weight: 500;
+}
+
+.collections-list .collection-box:first-child {
+    margin-bottom: 20px;
+}
+
+.collection-box {
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.collection-box .content.style-three {
+    left: auto;
+    right: 100px;
+}
+
+.collection-box .content.style-three, 
+.collection-box .content.style-two {
+    top: 45%;
+    padding: 0;
+    bottom: auto;
+    text-align: start;
+    -webkit-transform: translateY(-45%);
+    -moz-transform: translateY(-45%);
+    transform: translateY(-45%);
+    background-color: transparent;
+}
+
+.collection-box {
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+$--transition: .5s;
+
+.collection-box img {
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+}
+
+.collection-box:hover img {
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.collection-box .content span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--mainColor);
+}
+
+.collection-box .content .link-btn {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    line-height: 1.2;
+    font-size: var(--fontSize);
+    font-weight: 500;
+}

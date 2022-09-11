@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 function TopSlider() {
     var settings = {
         dots: true,
-        arrows: false,
+        arrows: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -16,24 +16,46 @@ function TopSlider() {
       };
 
     return (
-        <>
+        <section>
             <Slider {...settings}>
-                <div className="item-slider">
-                    <img src={slider1} alt="" />
-                    <div className="slider-content">
-                        <h2 className="title">Have You Got Yours?</h2>
-                        <p>Our brand-new medical supplies <br /> catalogue is out now!</p>
-                        <div className="slider-btn">
-                            <a type="button" className="action btn hero-btn theme-btn-1" data-toggle="modal" data-target="#requestCopy">Request A Copy</a>
-                            <a href="/publications/" className="btn hero-btn theme-btn-1" target="_blank">View Online</a>
+                <div className="banner-item">
+                    <div className="row align-items-center">
+                        <div className="col-lg-7 col-md-12">
+                        <div className="content">
+                            <span className="sub-title">New Arrival 2021!</span>
+                            <h1>MADE FOR YOU CLOTHING!</h1>
+                            <p>Trending from men and women style collection</p>
+                            <a className="default-btn" href="/shop-right-sidebar-1/">
+                            <i className="fas fa-store" /> SHOP NOW </a>
+                        </div>
+                        </div>
+                        <div className="col-lg-5 col-md-12">
+                        <div className="image">
+                            <img src={slider1} alt="banner-image" />
+                        </div>
                         </div>
                     </div>
                 </div>
-                <div className="item-slider">
-                    <img src={slider2} alt="" />
+                <div className="banner-item">
+                    <div className="row align-items-center">
+                        <div className="col-lg-7 col-md-12">
+                        <div className="content">
+                            <span className="sub-title">New Arrival 2021!</span>
+                            <h1>MADE FOR YOU CLOTHING!</h1>
+                            <p>Trending from men and women style collection</p>
+                            <a className="default-btn" href="/shop-right-sidebar-1/">
+                            <i className="fas fa-store" /> SHOP NOW </a>
+                        </div>
+                        </div>
+                        <div className="col-lg-5 col-md-12">
+                        <div className="image">
+                            <img src={slider2} alt="banner-image" />
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </Slider>
-        </>
+        </section>
     );
 }
 

@@ -23,3 +23,18 @@ npx tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch
 
 yarn add react-hook-form yup  @hookform/resolvers jwt-decode
 # clothing
+
+- logo: https://tatthanh.com.vn/logo-shop-quan-ao-nu
+
+# Free icons styles
+yarn add @fortawesome/free-solid-svg-icons
+yarn add @fortawesome/free-regular-svg-icons
+
+
+# Header
+https://preview.themeforest.net/item/retro-clean-minimal-ecommerce-nextjs-redux-template/full_screen_preview/33938980?_ga=2.6511344.337519482.1662803765-1187137013.1662803765&_gac=1.229036526.1662803765.Cj0KCQjw6_CYBhDjARIsABnuSzrSZpAuzkUX-3jjdWDmKsnX8o4ueCMkbRflivmasUUJ4g6td_NLooEaAsVQEALw_wcB
+# New Arrival
+https://luan-react.hibotheme.com/
+
+# Category
+https://preview.themeforest.net/item/retro-clean-minimal-ecommerce-nextjs-redux-template/full_screen_preview/33938980?_ga=2.6511344.337519482.1662803765-1187137013.1662803765&_gac=1.229036526.1662803765.Cj0KCQjw6_CYBhDjARIsABnuSzrSZpAuzkUX-3jjdWDmKsnX8o4ueCMkbRflivmasUUJ4g6td_NLooEaAsVQEALw_wcB
