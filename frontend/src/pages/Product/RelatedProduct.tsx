@@ -33,7 +33,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -68,7 +68,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -103,7 +103,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -138,7 +138,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -173,7 +173,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -208,7 +208,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -243,7 +243,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -278,7 +278,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -313,7 +313,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -348,7 +348,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -383,7 +383,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -418,7 +418,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -453,7 +453,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -488,7 +488,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -523,7 +523,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -558,7 +558,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -593,7 +593,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -628,7 +628,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -663,7 +663,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>
@@ -698,7 +698,7 @@ export function RelatedProduct (props: RelatedProductProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                 <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                 <i className="fal fa-exchange" />
                                 </a>
                             </div>

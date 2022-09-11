@@ -42,7 +42,7 @@ export const createAxios = (user: User, dispatch: Function, stateSuccess: Functi
           access_token: data.access_token,
         };
         dispatch(stateSuccess(refreshUser));
-        config.headers["Authorization"] = "Bearer " + data.access_token;
+        // config.headers["Authorization"] = "Bearer " + data.access_token;
       }
       return config;
     },

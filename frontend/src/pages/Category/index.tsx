@@ -197,7 +197,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare">
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -231,7 +231,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -264,7 +264,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -297,7 +297,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -331,7 +331,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -365,7 +365,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -465,7 +465,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -833,7 +833,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare">
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -965,7 +965,7 @@ export default function Category (props: CategoryProps) {
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Quick View">
                                     <i className="fal fa-eye" />
                                 </a>
-                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" className>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare" >
                                     <i className="fal fa-exchange" />
                                 </a>
                                 </div>
@@ -2303,16 +2303,16 @@ export default function Category (props: CategoryProps) {
                             <li className="active">
                                 <a href="#">01</a>
                             </li>
-                            <li className>
+                            <li>
                                 <a href="#">02</a>
                             </li>
-                            <li className>
+                            <li >
                                 <a href="#">03</a>
                             </li>
-                            <li className>
+                            <li >
                                 <a href="#">04</a>
                             </li>
-                            <li className>
+                            <li >
                                 <a href="#">05</a>
                             </li>
                             <li>
