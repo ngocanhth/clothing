@@ -1,0 +1,8 @@
+npx create-react-app ninerogues --template cra-template-pwa
+
+npm install -D tailwindcss
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+npm install redux redux-devtools-extension react-redux redux-thunk
+npm install @fortawesome/fontawesome-free-regular @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @headlessui/react @heroicons/react axios braintree-web-drop-in-react moment react-toastify react-router-dom
