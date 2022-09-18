@@ -1,4 +1,4 @@
-import { Outlet, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { ProtectedRoute } from "./protected-route";
 import { CustomRoutes } from "./index";
 
@@ -9,12 +9,10 @@ export const RecursiveRoute = (route: CustomRoutes) => {
       index={route.index}
       path={route.path}
       element={
-        <ProtectedRoute isAuth={route.isAuth}>
-          <Outlet/>
-        </ProtectedRoute>
+        <ProtectedRoute isAuth={route.isAuth}>{route.element}</ProtectedRoute>
       }
     >
-      {route?.children?.map((child: any) => RecursiveRoute(child))}
+      {route?.children?.map((child) => RecursiveRoute(child))}
     </Route>
   );
 };
