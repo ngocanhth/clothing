@@ -17,159 +17,273 @@ export function Header (props: HeaderProps) {
                         <div className="main-menu product-details-menu">
                         <nav id="mobile-menu-four">
                             <ul>
-                            <li>
-                                <Link to = "/">Home</Link>
-                                <ul className="submenu submenu-three">
-                                <li>
-                                    <Link to="/">Home Style 1</Link>
-                                </li>
-                                <li>
-                                    <Link to="/index-2">Home Style 2</Link>
-                                </li>
-                                <li>
-                                    <Link to="/index-3">Home Style 3</Link>
-                                </li>
-                                <li>
-                                    <Link to="/index-4">Home Style 4</Link>
-                                </li>
-                                <li>
-                                    <Link to="/index-5">Home Style 5</Link>
-                                </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <Link to = "/about">About</Link>
-                            </li>
-                           
                             <li className="mega-menu">
-                                <Link to = "/shop" className="mega-menu">Shop</Link>
+                                <Link to = "/category" className="mega-menu">Thời Trang Nữ</Link>
                                 <ul className="submenu ">
                                 <li>
-                                    <Link to="/shop#">Category View</Link>
+                                    <Link to="/category#">Áo</Link>
                                     <ul className="submenu ">
                                     <li>
-                                        <Link to="/shop/col-2">Shop 2 Column</Link>
+                                        <Link to="/category/col-2">Áo Thun</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/right-sidebar">Shop 2 Right Sidebar</Link>
+                                        <Link to="/category/right-sidebar">UT (Áo Thun Họa Tiết)</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/col-4">Shop 4 Column Full</Link>
+                                        <Link to="/category/col-4">Áo Nỉ & Áo Hoodie</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/list-view">Shop List View</Link>
+                                        <Link to="/category/list-view">Áo Sơ Mi & Áo Kiểu</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/col-4">Shop No Sidebar</Link>
+                                        <Link to="/category/col-4">Áo Cardigan</Link>
                                     </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link to="/shop#">Category View</Link>
+                                    <Link to="/category#">Quần & Chân váy</Link>
+                                    <ul className="submenu ">
+                                    <li>
+                                        <Link to="/category/col-2">Quần Jeans</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/right-sidebar">Quần Legging</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/col-4">Quần Ống Rộng</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/list-view">Quần Tây</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/list-view">Quần Dài</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/col-4">Tất Cả Quần</Link>
+                                    </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <Link to="/category#">Thời trang thu đông</Link>
                                     <ul className="submenu">
                                     <li>
-                                        <Link to="/shop">Sidebar Left</Link>
+                                        <Link to="/category">Áo khoác lông cừu - vũ</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/right-sidebar">Sidebar Right</Link>
+                                        <Link to="/category/right-sidebar">Áo khoác</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/col-4">Style 01</Link>
+                                        <Link to="/category/col-4">Áo - Quần giữ nhiệt</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/right-sidebar">Style 02</Link>
+                                        <Link to="/category/right-sidebar">Áo nỉ - Áo len</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop">Style 03</Link>
+                                        <Link to="/category">Quần tất</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category">Khăn quàng - tất</Link>
                                     </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link to="/shop#">Product View</Link>
+                                    <Link to="/category#">Giày dép & Phụ kiện</Link>
                                     <ul className="submenu">
                                     <li>
-                                        <Link to="/product">Simple Product</Link>
+                                        <Link to="/product">Túi</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/101">Product Upcoming</Link>
+                                        <Link to="/product">Ví</Link>
                                     </li>
                                     <li>
-                                        <Link to="/shop/up-thumb/16">Thumb Top Product</Link>
+                                        <Link to="/product">Balo</Link>
                                     </li>
                                     <li>
-                                        <Link to="/compare">Compare</Link>
+                                        <Link to="/compare">Thắt Lưng</Link>
                                     </li>
                                     <li>
-                                        <Link to="/wishlist">wishlist</Link>
+                                        <Link to="/category/101">Giày & Giày Boots</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/101">Kính Mát</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/up-thumb/16">Trang sức</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/up-thumb/16"> Phụ kiện khác</Link>
                                     </li>
                                     </ul>
                                 </li>
                                 </ul>
                             </li>
+
+                            <li className="mega-menu">
+                                <Link to = "/category" className="mega-menu">Thời Trang Nam</Link>
+                                <ul className="submenu ">
+                                <li>
+                                    <Link to="/category#">Áo</Link>
+                                    <ul className="submenu ">
+                                    <li>
+                                        <Link to="/category/col-2">Áo Thun</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/right-sidebar">UT (Áo Thun Họa Tiết)</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/col-4">Áo Nỉ & Áo Hoodie</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/list-view">Áo Sơ Mi & Áo Kiểu</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/col-4">Áo Cardigan</Link>
+                                    </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <Link to="/category#">Quần & Chân váy</Link>
+                                    <ul className="submenu ">
+                                    <li>
+                                        <Link to="/category/col-2">Quần Jeans</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/right-sidebar">Quần Legging</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/col-4">Quần Ống Rộng</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/list-view">Quần Tây</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/list-view">Quần Dài</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/col-4">Tất Cả Quần</Link>
+                                    </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <Link to="/category#">Thời trang thu đông</Link>
+                                    <ul className="submenu">
+                                    <li>
+                                        <Link to="/category">Áo khoác lông cừu - vũ</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/right-sidebar">Áo khoác</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/col-4">Áo - Quần giữ nhiệt</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/right-sidebar">Áo nỉ - Áo len</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category">Quần tất</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category">Khăn quàng - tất</Link>
+                                    </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <Link to="/category#">Giày dép & Phụ kiện</Link>
+                                    <ul className="submenu">
+                                    <li>
+                                        <Link to="/product">Túi</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/product">Ví</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/product">Balo</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/compare">Thắt Lưng</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/101">Giày & Giày Boots</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/101">Kính Mát</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/up-thumb/16">Trang sức</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/up-thumb/16"> Phụ kiện khác</Link>
+                                    </li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                   
                             <li>
-                                <Link to = "/blog">News</Link>
+                                <Link to = "/category">Làm đẹp</Link>
                                 <ul className="submenu">
                                 <li>
-                                    <Link to="/blog">Blog Standart</Link>
+                                    <Link to="/about">Sữa tắm - Dưỡng thể</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/left-sidebar">Blog Left Sidebar</Link>
+                                    <Link to="/contact">Dầu gội xả</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/no-sidebar">Blog No Sidebar</Link>
+                                    <Link to="/login">Kem/ Xịt chống nắng</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/col-2">Blog 2 Column</Link>
+                                    <Link to="/register">Nước hoa</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/col-mas-2">Blog 2 Col Masonry</Link>
+                                    <Link to="/cart">Mặt nạ</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/col-3">Blog 3 Column</Link>
+                                    <Link to="/checkout">Sữa rửa mặt</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/col-mas-3">Blog 3 Col Masonry</Link>
+                                    <Link to="/wishlist">Tẩy trang các loại</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/1">Blog Details</Link>
+                                    <Link to="/order-success">Dưỡng da</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog/10">Blog Details Video</Link>
+                                    <Link to="/order-success">Son dưỡng</Link>
                                 </li>
                                 </ul>
                             </li>
                             <li>
-                                <Link to = "/shop">Pages</Link>
+                                <Link to = "/blog">Tin tức</Link>
                                 <ul className="submenu">
                                 <li>
-                                    <Link to="/about">About Us</Link>
+                                    <Link to="/blog">Cẩm nang đi du lịch Nhật Bản</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact">Contact Us</Link>
+                                    <Link to="/blog">Địa điểm du lịch Nhật Bản</Link>
                                 </li>
                                 <li>
-                                    <Link to="/login">login</Link>
+                                    <Link to="/blog/left-sidebar">Xuất khẩu lao động Nhật Bản</Link>
                                 </li>
                                 <li>
-                                    <Link to="/register">Register</Link>
+                                    <Link to="/blog/no-sidebar">Cách lấy tiền Nenkin</Link>
                                 </li>
                                 <li>
-                                    <Link to="/cart">Shoping Cart</Link>
+                                    <Link to="/blog/col-2">Các địa điểm du lịch Nhật Bản</Link>
                                 </li>
                                 <li>
-                                    <Link to="/checkout">Checkout</Link>
+                                    <Link to="/blog/col-mas-2">Tìm hiểu về văn hóa Nhật Bản</Link>
                                 </li>
                                 <li>
-                                    <Link to="/wishlist">Wishlist</Link>
+                                    <Link to="/blog/col-3">Ẩm thực Nhật Bản</Link>
                                 </li>
                                 <li>
-                                    <Link to="/order-success">Order Success</Link>
+                                    <Link to="/blog/col-mas-3">Địa điểm ăn uống ở Nhật Bản</Link>
                                 </li>
                                 </ul>
                             </li>
                             <li>
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/contact">Liên hệ</Link>
                             </li>
+
                             </ul>
                         </nav>
                         </div>
@@ -183,7 +297,7 @@ export function Header (props: HeaderProps) {
                     </div>
                     <div className="col-xl-5 col-lg-3 col-md-7 col-5 header-6-padd">
                         <div className="header-left-icon d-flex align-items-center f-right">
-                        <Link className="search-btn nav-search search-trigger" to="/shop#">
+                        <Link className="search-btn nav-search search-trigger" to="/category#">
                             <i className="fa-solid fa-cart-shopping"></i>
                             <i className="fa-regular fa-magnifying-glass"></i>
                         </Link>
